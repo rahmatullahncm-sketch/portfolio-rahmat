@@ -1,9 +1,17 @@
  
- 
+ /* shared style */
 .montserrat-font {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;}
+  .logo h2{
+  font-size: 45px;
+  font-weight: 900;
    
+  }
+.color-orange{
+color:orangered;
+}
+  /* main style */
   header{
   padding-top: 50px;
   align-items: center;
@@ -16,11 +24,65 @@
   /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
+  align-items: center;
    
 
+  }
+  nav .menu{
+  display: flex;
+  gap: 52px;
+  list-style: none;
+  text-align: center;
+  
+  }
+  nav .menu li a{
+    text-decoration: none;
+    font-size: 21px;
+    color: #474747;
+    cursor: pointer;
+  }
+  .btn {
+    padding: 5px 20px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
   }
   *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+  .banner{
+    /* border: #474747 solid 1px; */
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 20px;
+  }
+   section .banner-content h3{
+    font-size: 50px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 20px;
+  }
+  section .border p{
+
+  border: 2px solid #474747;
+
+  }
+  section .btn{
+    display: flex;
+    gap : 10px;
   }
