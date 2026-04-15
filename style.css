@@ -77,9 +77,11 @@ color:orangered;
     color: #474747;
     margin-bottom: 20px;
   }
-  section .border p{
+  section .border{
+    text-align: justify;
+    color: darkorchid;
 
-  border: 2px solid #474747;
+  
 
   }
   section .btn{
