@@ -1,0 +1,23 @@
+.nav-h3{
+  background-color: red;
+}
+ 
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;}
+  .ul-li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: turquoise;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
